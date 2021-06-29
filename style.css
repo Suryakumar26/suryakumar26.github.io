@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins','sans-serif';
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: #FFf;
+    text-shadow: 2px 2px 2px #000;
+    background-attachment: fixed;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-1{
+    background-image: url(https://wallpapercave.com/wp/wp4012091.jpg);
+  width: 100%;
+  height: 100vh;
+}
+.bg-2{
+    background-image: url(https://wallpaperaccess.com/full/2190908.jpg);
+  width: 100%;
+  height: 600px;
+}
+.bg-3{
+    background-image: url(https://www.nzc.nz/media/2112/squad.jpg?format=jpg&upscale=false&quality=65&width=1000);
+  width: 100%;
+  height: 100vh;
+}
+.bg-4{
+    background-image: url(https://i.pinimg.com/originals/a7/02/90/a70290d567b8ba155468e72cd62c018b.jpg);
+      width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+    div{
+        width: 250%;
+    }
+}
